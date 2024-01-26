@@ -1,0 +1,139 @@
+
+#h5{
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px blue;
+    color: blueviolet;
+
+}
+.a6
+{
+    border-right: 2px solid white;
+}
+#navbar #right span img{
+ width:6vh;
+}
+#left ul li a, #middle ul li a,ul li a{
+text-decoration: none;
+color: gray;
+}
+#left ul li, #middle ul li {
+display: inline-block;
+padding:20px;
+}
+#navbar,#middle{
+background-color: black;
+}
+#header,#aa{
+background-color: violet;
+display: flex;
+justify-content: center;
+align-items: center;
+color:white;
+height:45vh;
+
+}
+#middle{
+display: flex;
+justify-content: center;
+align-items:center;
+padding-top:5px;
+}
+#middle ul li a{
+color:whitesmoke;
+}
+#middle ul li a:hover{
+border-bottom:2px solid gold ;
+}
+ul li{
+padding:20px;
+color:white;
+}
+#a,#b,#c,#d,#e,#f,#g{
+padding:20px ;
+}
+#ul li:hover{
+background-color: blue;
+border-radius: 2px;
+
+}
+#ul li:hover a{
+color:white;
+}
+#left ul li:hover a{
+border-bottom:2px solid gold ;
+color:gold;
+}
+@keyframes hii{
+50%{
+translate:0px 0px;
+}
+100%{
+translate: 0px -40px;
+}
+}
+#aa{
+    height:7vh;
+    width:90%;
+   
+}
+.card{
+    height:20vh;
+}
+.card  img{
+    width: 30vh;
+    height:30vh;
+
+}
+@media(max-width:970px){
+    #header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+}
+@media (max-width:260px) {
+        #left ul{
+            display:flex;
+    flex-direction: column;    
+        }
+
+    
+}
+@media (min-width:980px) and (max-width:1065px)  {
+    #left ul{
+            display:flex;
+    flex-direction: row;
+    justify-content: flex-start;    
+        }
+
+    
+}
+@media(max-width:992px){
+    #a img,#b img,#c img,#d img,#e img,#f img,#h img,#g img{
+        width:20vh;
+        height:20vh;
+        object-fit: contain;
+    }
+    #a img{
+        margin: auto;
+        
+    }
+
+}
+@media (max-width:502px){
+  #middle ul{
+    display:flex;
+    flex-direction: column;
+    
+  }
+  #middle ul li{
+    border:1px solid transparent;
+    border-left:2px solid transparent;
+  }
+  .a6{
+    border-right: 2px solid transparent;
+  }
+  
+}
